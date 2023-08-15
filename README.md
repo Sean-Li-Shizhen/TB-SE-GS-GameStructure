@@ -28,4 +28,9 @@ Seperated Strategy and Tactic, strategies like trade, diplomacy, Growth are mana
 * At every turn, military decisions are to be made, ordering troops to perform actions. In peaceful times this should be very quick with mostly "keep the last order".
 * After every player/AI admitted end-of-turn, all executions are to happen at the same time, first diplomatic actions like alliance/war declaration are presented/informed, then military movements are executed as determined before. During the execution no change can be made and can only watch things happen.
 
+## Subprojects and folders
 
+* `Influencer` folder will detail rules to grow manpower, research, military... all the details showing how strong a player is on the field. The plan is to start with Java coding as each player is to have an object of this class.
+* `MapGen` folder will try to make randomized maps for the gameplay. The plan is to start with python coding as it is likely high-level mathematical algorithms
+* `Battle` folder will entail the combat with army troops and how it is performed. The plan is to use java and make army troops a class.
+* `Actualization` folder will be the thing at last, after each subsystem is working, integrate into a driver and try out.
